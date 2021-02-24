@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(24,0,39,.87);
+    text-align: left;
+    background-color: #fff;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#navigateur
+{
+    width: 100vw;
+    display: flex;
+    justify-content:space-between;
+    background-color: #d92950;
+}
+#logokda
+{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 100px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 30px;
+    list-style-type: none;
+
+      
+}
+
+#general
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110vh;
+    background-image: url(images/hero-background.jpg) ;
+    background-size: cover;
+
+}
+
+/*pour le titre de la premiere page*/
+ h1
+{
+font-family: 'Montserrat_ultra', sans-serif;
+font-size: 40px;
+font-weight: 700;
+font-style: normal;
+color: #424345;
+line-height: 1.2em;
+width: 60%;
+color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 5.3em;
+font-style: normal;
+margin-top: 7%;
+letter-spacing: 0em;
+text-align: center;
+line-height: 1.2em;
+}
+#dev
+{
+    color: #ffe64d;
+}
+
+
+
+
+
+
+
+
+/*travail sur la premiere page arriere plan et centralisation*/
