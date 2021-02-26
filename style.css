@@ -1,96 +1,227 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url('../font/Roboto-Black.eot');
-    src: url('../font/Roboto-Black.eot?#iefix') format('embedded-opentype'),
-        url('../font/Roboto-Black.woff2') format('woff2'),
-        url('../font/Roboto-Black.woff') format('woff'),
-        url('../font/Roboto-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('../font/Roboto-Bold.eot');
-    src: url('../font/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../font/Roboto-Bold.woff2') format('woff2'),
-        url('../font/Roboto-Bold.woff') format('woff'),
-        url('../font/Roboto-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('../font/Roboto-Light.eot');
-    src: url('../font/Roboto-Light.eot?#iefix') format('embedded-opentype'),
-        url('../font/Roboto-Light.woff2') format('woff2'),
-        url('../font/Roboto-Light.woff') format('woff'),
-        url('../font/Roboto-Light.ttf') format('truetype');
+    font-family: 'Montserrat';
+    font-style: italic;
     font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZYgzz_PZ1.ttf) format('truetype');
 }
-
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUQjIg1_i6t8kCHKm459WxRyS7j.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZFgrz_PZ1.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZcgvz_PZ1.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUPjIg1_i6t8kCHKm459WxZSgnz_PZ1.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gnD-w.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_bZF3gnD-w.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gnD-w.ttf) format('truetype');
+}
 @font-face {
     font-family: 'Roboto';
-    src: url('../font/Roboto-Medium.eot');
-    src: url('../font/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../font/Roboto-Medium.woff2') format('woff2'),
-        url('../font/Roboto-Medium.woff') format('woff'),
-        url('../font/Roboto-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf) format('truetype');
 }
-
 @font-face {
     font-family: 'Roboto';
-    src: url('../font/Roboto-Regular.eot');
-    src: url('../font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../font/Roboto-Regular.woff2') format('woff2'),
-        url('../font/Roboto-Regular.woff') format('woff'),
-        url('../font/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOkCnqEu92Fr1Mu51xIIzc.ttf) format('truetype');
 }
-
 @font-face {
     font-family: 'Roboto';
-    src: url('../font/Roboto-Thin.eot');
-    src: url('../font/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../font/Roboto-Thin.woff2') format('woff2'),
-        url('../font/Roboto-Thin.woff') format('woff'),
-        url('../font/Roboto-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf) format('truetype');
 }
-.sec1
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/ubuntumono/v10/KFOjCneDtsqEr0keqCMhbCc6CsE.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/ubuntumono/v10/KFO-CneDtsqEr0keqCMhbC-BL9H1tYg.ttf) format('truetype');
+}
+*
 {
-    padding-bottom: 5%;
-    background-image: url(images/hero-background.jpg) ;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
 }
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Roboto,sans-serif;
+    
     font-weight: 400;
     line-height: 1.5;
     color: rgba(24,0,39,.87);
     text-align: left;
-    background-color: #fff;
+    font-family: Roboto, sans-serif;
+    overflow-x: hidden;
 }
-/*pour les elements qui doivenr etre en colonne*/
-.colonne
+
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+
+}
+section
+{
+    padding:100px 0;
+}
+
+header
+{
+    background-color:#d92950;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.navbar
+{
+    background-color: #d22950;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.navbar-logo
+{
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+
+}
+.navbar-logo img
+{
+    width: 80px;
+    height: 46px;
+    max-width: 100%;
+    background: no-repeat 50%/50% 50%;
+
+}
+.menu-content
+{
+    display: flex;
+
+}
+.navbar .nav-item
+{
+    margin: 0 30px 0 0;
+}
+.navbar .nav-item .nav-link
+{
+    transition: all 0.3s linear;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 .5rem;
+   border-bottom: 2px solid transparent;
+    border-radius: 2px;
+}
+#sec1
+{
+    margin: 0;
+    padding-bottom: 20vh;
+    background: url("images/hero-background.jpg") top no-repeat ;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 100px;
+ 
+ 
+}
+
+.row1
 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+.full-width
+{
+    max-width: 100%;
+}
+.general .row1 h1
+{
+    font-size: 5.5vw;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+}
+
+
+
 /*pour tous les elements qui doivent etre en ligne*/
 .ligne
 {
@@ -98,78 +229,12 @@ body {
     flex-direction: row; 
 }
 /*pour le naviagteur ou se trouve le logo et l'accueil et autres et la couleur et la disposition*/
-#navigateur
-{
-    width:100%;
-    display: flex;
-    justify-content:space-between;
-    background-color: #d92950;
-}
-#logokda
-{
-    margin-left: 20px;
-    margin-top: 15px;
-    width: 100px;
-}
-/*le menu de la classe qui comprend l'acceuil et autres j'ai defini la taille*/
-.menu
-{
-    width: 30%;
-}
 
-/*pour fixer la barre de navigation*/
-
-.fixed
-{
-    position: fixed;
-}
-/* acceuil et auttres disposition*/
-.menu ul 
-{
-    display: flex;
-    flex-direction: row ;
-    margin-top: 30px;
-    list-style-type: none;
-    justify-content: space-around;  
-}
-/*pour la couleur de liens et les soulignements*/
-
-.menu a 
-{
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: 600;
-}
 /*la premiere section l'arriere plan et centralisation*/
-.general
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 110vh;
-    background-image: url(images/hero-background.jpg) ;
-    background-size: cover;
-}
+
 
 /*pour le titre de la premiere page*/
-h1
-{
-font-family: 'Montserrat_ultra', sans-serif;
-font-size: 40px;
-font-weight: 700;
-font-style: normal;
-color: #424345;
-line-height: 1.2em;
-width: 60%;
-color: #FFFFFF;
-font-family: 'Montserrat', sans-serif;
-font-size: 5.3em;
-font-style: normal;
-margin-top: 7%;
-letter-spacing: 0em;
-text-align: center;
-line-height: 1.2em;
-}
+
 /*la couleur de de mot qualité*/
 #dev
 {
@@ -184,19 +249,25 @@ line-height: 1.2em;
     text-transform: uppercase;
 }
 
-.general ul a
-{
-margin: 30px 12px;
-padding: 20px;
-background-color: #FFFFFF;
-border-radius: 15px;
-font-size: 1.2rem;
-text-decoration: none;
-color: #d92950;
-font-weight:600;
-border: solid 2px white
-
+.btn{
+    margin-top: 50px;
 }
+ .hero-btn
+{
+    
+    padding: 15px 25px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: #d92950;
+    font-weight:700;
+    border: solid 2px white
+}
+
+
+
 
 .general ul a:hover
 {
@@ -231,7 +302,7 @@ border: solid 2px white
 .traiteimg
 {
 margin-top: 100px;
-width: 70%;
+width: 40%;
 }
 
 #image1
@@ -239,35 +310,79 @@ width: 70%;
 width: 500px; 
 border-radius: 0px 20px   20px 0px ;
 margin-left: -5.5%;
+z-index:1;
 }
 
 #image2
 {
-    margin-left: -26%;
-    margin-bottom: -70px;
+    margin-left: -10%;
+    margin-bottom: -50px;
     width: 340px;
     border-radius: 20px;
+    z-index: 2;
 }
 
 .bloc2
 {
-    width: 70%;
+    width: 60%;
+
+
 }
 .illustration
 {
-margin-top: 20%;
+margin-top: 8%;
 justify-content: space-between;
 display: flex; 
-flex-direction: row;
+flex-direction: column;
+
+}
+.illustration1, .illustration2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 80%;
+    margin: auto;
+
+
 }
 
 
-.cadran
+.coco
 {
-    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    font-family: 'montserrat-Bold', sans-serif;
+
+    color: #424345;
+
     
 }
 
+h5
+{
+    font-size: 40px;
+    
+    font-weight: bold;
+    font-family: 'montserrat-Bold', sans-serif;
+    padding-top:10px ;
+    font-weight: bold;
+    color: #424345;
+    
+}
+
+#cadran1, #cadran2, #cadran3, #cadran4
+{
+    height: 100px;
+    width: 50px;
+    border-bottom:#d92950 2px solid;
+
+    
+}
 
 
 
