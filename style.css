@@ -1,6 +1,83 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Black.eot');
+    src: url('../font/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/Roboto-Black.woff2') format('woff2'),
+        url('../font/Roboto-Black.woff') format('woff'),
+        url('../font/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Bold.eot');
+    src: url('../font/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Roboto-Bold.woff2') format('woff2'),
+        url('../font/Roboto-Bold.woff') format('woff'),
+        url('../font/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Light.eot');
+    src: url('../font/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/Roboto-Light.woff2') format('woff2'),
+        url('../font/Roboto-Light.woff') format('woff'),
+        url('../font/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Medium.eot');
+    src: url('../font/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/Roboto-Medium.woff2') format('woff2'),
+        url('../font/Roboto-Medium.woff') format('woff'),
+        url('../font/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.eot');
+    src: url('../font/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/Roboto-Regular.woff2') format('woff2'),
+        url('../font/Roboto-Regular.woff') format('woff'),
+        url('../font/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Thin.eot');
+    src: url('../font/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../font/Roboto-Thin.woff2') format('woff2'),
+        url('../font/Roboto-Thin.woff') format('woff'),
+        url('../font/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+.sec1
+{
+    padding-bottom: 5%;
+    background-image: url(images/hero-background.jpg) ;
+}
 
 body {
     margin: 0;
+    padding: 0;
     font-family: Roboto,sans-serif;
     font-weight: 400;
     line-height: 1.5;
@@ -8,14 +85,22 @@ body {
     text-align: left;
     background-color: #fff;
 }
-*
+/*pour les elements qui doivenr etre en colonne*/
+.colonne
 {
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
+/*pour tous les elements qui doivent etre en ligne*/
+.ligne
+{
+    display: flex;
+    flex-direction: row; 
+}
+/*pour le naviagteur ou se trouve le logo et l'accueil et autres et la couleur et la disposition*/
 #navigateur
 {
-    width: 100vw;
+    width:100%;
     display: flex;
     justify-content:space-between;
     background-color: #d92950;
@@ -26,16 +111,37 @@ body {
     margin-top: 15px;
     width: 100px;
 }
-nav ul{
+/*le menu de la classe qui comprend l'acceuil et autres j'ai defini la taille*/
+.menu
+{
+    width: 30%;
+}
+
+/*pour fixer la barre de navigation*/
+
+.fixed
+{
+    position: fixed;
+}
+/* acceuil et auttres disposition*/
+.menu ul 
+{
     display: flex;
     flex-direction: row ;
     margin-top: 30px;
     list-style-type: none;
-
-      
+    justify-content: space-around;  
 }
+/*pour la couleur de liens et les soulignements*/
 
-#general
+.menu a 
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+/*la premiere section l'arriere plan et centralisation*/
+.general
 {
     display: flex;
     flex-direction: column;
@@ -43,11 +149,10 @@ nav ul{
     height: 110vh;
     background-image: url(images/hero-background.jpg) ;
     background-size: cover;
-
 }
 
 /*pour le titre de la premiere page*/
- h1
+h1
 {
 font-family: 'Montserrat_ultra', sans-serif;
 font-size: 40px;
@@ -65,16 +170,105 @@ letter-spacing: 0em;
 text-align: center;
 line-height: 1.2em;
 }
+/*la couleur de de mot qualité*/
 #dev
 {
     color: #ffe64d;
+    text-transform: uppercase;
+}
+/*traitement pour les boutons en dessous du titre h1*/ 
+
+.general ul 
+{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.general ul a
+{
+margin: 30px 12px;
+padding: 20px;
+background-color: #FFFFFF;
+border-radius: 15px;
+font-size: 1.2rem;
+text-decoration: none;
+color: #d92950;
+font-weight:600;
+border: solid 2px white
+
+}
+
+.general ul a:hover
+{
+    color:#FFFFFF;
+    background-color:rgba(216, 0,71, 0);
+}
+#besoin
+{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+
+}
+/*logo en bas de la premiere section*/
+#logo{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin-top : 3.2%;
+}
+#logo img{
+    width: 55px;
+    opacity: 0.5;
+}
+/*ici commence le debut de la deuxieme section avec general1 comme classe*/
+.general1
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.traiteimg
+{
+margin-top: 100px;
+width: 70%;
+}
+
+#image1
+{
+width: 500px; 
+border-radius: 0px 20px   20px 0px ;
+margin-left: -5.5%;
+}
+
+#image2
+{
+    margin-left: -26%;
+    margin-bottom: -70px;
+    width: 340px;
+    border-radius: 20px;
+}
+
+.bloc2
+{
+    width: 70%;
+}
+.illustration
+{
+margin-top: 20%;
+justify-content: space-between;
+display: flex; 
+flex-direction: row;
+}
+
+
+.cadran
+{
+    width: 50px;
+    
 }
 
 
 
 
 
-
-
-
-/*travail sur la premiere page arriere plan et centralisation*/
