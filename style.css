@@ -226,7 +226,7 @@ justify-content: space-between;
 .general .row1 h1
 {
     font-size: 5.5vw;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-align: center;
     color: #fff;
@@ -461,12 +461,13 @@ height: 60%;
 }
 #sec4
 {
-    height: 90vh;
+    height: 95vh;
     width: 100vw;
     background-color: #f1f0f3;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 #titpro
 {
@@ -551,4 +552,70 @@ height: auto;
 {
     color:#d92950;
     background-color: white;
+}
+#sec5
+{
+    height: 150vh;
+    width: 100vw;
+    background-color: #d92950;
+}
+#tite5
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+#sec6
+{
+    background-color:#FFFFFF;
+    height: 100vh;
+    width: 100vw;
+}
+#sec6general
+{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+#sec6general1
+{
+    background-color: #f1f0f3;
+    width:40%;
+    height: 50%;
+    
+
+
+}
+#tite6
+{
+    color: #424345;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+#sec6h3
+{
+    background-color: #d92950;
+    height: 70px;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+#representation
+{
+    display: flex;
+    flex-direction: column;
+}
+.img30
+{
+display: flex;
+flex-direction: row;
+}
+
+.img6
+{
+ width: 40px;
+ color: black;
 }
